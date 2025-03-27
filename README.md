@@ -29,14 +29,18 @@ pip install opencv-python numpy
 
 2. Place these files in the project directory.
 
-3. Run the script with a video file:
+3. Run the script with a image file:
    ```sh
-   python object_detection.py
+   python main.py
+   ```
+4. Run the script with a video file:
+   ```sh
+   python video.py
    ```
    
-   To use a webcam instead, modify:
-   ```python
-   cap = cv2.VideoCapture(0)  # Use 0 for default webcam
+   Run the script with a webcam:
+   ```sh
+   python cam.py
    ```
 
 ## Code Overview
