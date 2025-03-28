@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the pre-trained YOLO model with its weights and configuration file
-net = cv2.dnn.readNet('yolov3.weights', 'yolov3.cfg.txt')  # Ensure the correct filename extension
+net = cv2.dnn.readNet('yolov3.weights', 'yolov3.cfg')  # Ensure the correct filename extension
 
 # Load class names from the COCO dataset
 classes = []
